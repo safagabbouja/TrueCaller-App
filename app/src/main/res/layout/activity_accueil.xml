@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background_image"
+
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+
+    tools:context=".Accueil">
+
+    <TextView
+        android:id="@+id/tv1_accueil"
+        style="st"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="50dp"
+        android:text="Accueil"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+    <!-- Ligne séparatrice -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"
+        android:layout_marginBottom="80dp"/>
+
+    <Button
+        android:id="@+id/bntajout_accueil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ajout" />
+
+    <Button
+        android:id="@+id/bntaff_accueil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="affichage" />
+</LinearLayout>
